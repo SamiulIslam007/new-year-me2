@@ -155,3 +155,26 @@ header {
   font-style: normal;
   font-weight: 500;
 }
+
+/* Banner section styles */
+
+.banner-section {
+  padding: 60px 65px;
+  /* This is cool and awesome man. I have added a liner-gradient effect layer on a banner image */
+  background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url(../images/Banner.png);
+
+  background-size: cover;
+  border-radius: 8px;
+  margin-bottom: 130px;
+}
+
+.banner-heading {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 24px;
+  width: 45%;
+}
