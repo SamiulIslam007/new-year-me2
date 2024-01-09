@@ -178,3 +178,81 @@ header {
   margin-bottom: 24px;
   width: 45%;
 }
+
+/* Footer styles */
+footer {
+  padding: 130px 0;
+  background: #151414;
+}
+.footer {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  width: 45%;
+}
+.footer-right {
+  width: 30%;
+}
+.footer-heading {
+  color: #f8f8f8;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.footer-text,
+.email,
+.phone {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.footer-text {
+  margin-bottom: 24px;
+}
+.email {
+  margin-bottom: 16px;
+}
+.phone {
+  margin-bottom: 24px;
+}
+
+.footer-subheading {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.footer-form input[type="email"] {
+  color: #f3f3f3;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 20px;
+  background: none;
+  border: 1px solid #fff;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+.footer-form input[type="submit"] {
+  background: #005fac;
+  color: #fff;
+  padding: 20px 35px;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
