@@ -94,7 +94,7 @@ header {
 .img-box::after {
   content: "";
   position: absolute;
-  top: 33%;
+  top: 27%;
   left: -15%;
   width: 527px;
   height: 527px;
@@ -121,7 +121,7 @@ header {
   margin: 135px 0;
 }
 .plans-heading {
-  color: var(--Dark-01, #151414);
+  color: #151414;
   text-align: center;
   font-family: Work Sans;
   font-size: 40px;
